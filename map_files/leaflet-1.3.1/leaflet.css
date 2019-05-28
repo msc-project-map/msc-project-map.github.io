@@ -1,5 +1,16 @@
 /* required styles */
 
+body {
+		 padding: 0;
+		 margin: 0;
+ }
+ html, body, #map {
+		 height: 100%;
+		 width: 100%;
+ }
+
+
+
 .leaflet-pane,
 .leaflet-tile,
 .leaflet-marker-icon,
@@ -245,7 +256,7 @@
 /* visual tweaks */
 
 .leaflet-container {
-	background: #ddd;
+	background: #FFF;
 	outline: 0;
 	}
 .leaflet-container a {
