@@ -346,7 +346,7 @@
 
 	@media (min-width:600px) {
 	  .leaflet-control-layers{
-	    max-width: 100%;
+	     max-width: 100%;
 	   }
 	 }
 
