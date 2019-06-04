@@ -345,10 +345,10 @@
 	}
 
 	@media (min-width:600px) {
-	   .leaflet-control-layers{
-	     max-width: 100%;
-	   }
-	 }
+	  .leaflet-control-layers{
+	    max-width: 100%;
+	  }
+	}
 
 .leaflet-control-layers-toggle {
 	background-image: url(images/layers.png);
