@@ -119,6 +119,7 @@
 	z-index: 800;
 	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
 	pointer-events: auto;
+	max-width: 35%;
 	}
 .leaflet-top,
 .leaflet-bottom {
