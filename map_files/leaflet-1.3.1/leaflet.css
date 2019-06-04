@@ -119,8 +119,14 @@
 	z-index: 800;
 	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
 	pointer-events: auto;
-	max-width: 35%;
 	}
+
+
+@media (max-width: 600px) {
+#legend {
+	font-size: 0.75em;
+}
+}
 .leaflet-top,
 .leaflet-bottom {
 	position: absolute;
