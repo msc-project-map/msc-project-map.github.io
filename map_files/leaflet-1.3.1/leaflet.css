@@ -328,7 +328,19 @@
 .leaflet-control-zoom-out {
 	font: bold 18px 'Lucida Console', Monaco, monospace;
 	text-indent: 1px;
+	max-width: 50%;
 	}
+
+	@media (min-width:600px) {
+  .leaflet-control-layers{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #legend {
+  font-size: 0.75em;
+}
 
 .leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out  {
 	font-size: 22px;
@@ -341,20 +353,7 @@
 	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 	background: #fff;
 	border-radius: 5px;
-	max-width: 50%;
 	}
-
-	@media (min-width:600px) {
-	  .leaflet-control-layers{
-	    max-width: 100%;
-	  }
-	}
-
-	@media (max-width: 600px) {
-	  #legend {
-	  font-size: 0.75em;
-	}
-
 .leaflet-control-layers-toggle {
 	background-image: url(images/layers.png);
 	width: 36px;
