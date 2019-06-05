@@ -120,13 +120,6 @@
 	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
 	pointer-events: auto;
 	}
-
-
-@media (max-width: 600px) {
-#legend {
-	font-size: 0.75em;
-}
-}
 .leaflet-top,
 .leaflet-bottom {
 	position: absolute;
@@ -355,6 +348,11 @@
 	  .leaflet-control-layers{
 	    max-width: 100%;
 	  }
+	}
+
+	@media (max-width: 600px) {
+	  #legend {
+	  font-size: 0.75em;
 	}
 
 .leaflet-control-layers-toggle {
